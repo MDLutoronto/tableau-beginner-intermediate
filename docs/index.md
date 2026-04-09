@@ -158,7 +158,7 @@ Table of Contents
 
     ![Image displaying the final bar graph with the changed title "Profit by Sub-Category".]({{ '/assets/images/tableau_b2i_020.jpg' | relative_url }})
 
----
+***
 
     ## Creating Line Graphs
     {: #creating-line-graphs}
@@ -227,7 +227,7 @@ Table of Contents
 
     ![Image displaying the resulting line graphs, subdivided by quarterly profit.]({{ '/assets/images/tableau_b2i_030.jpg' | relative_url }})
 
----
+***
 
     ## Creating Gantt Charts
     {: #creating-gantt-charts}
@@ -282,7 +282,7 @@ Table of Contents
 
     ![The final Gnatt chart displayed.]({{ '/assets/images/tableau_b2i_040.jpg' | relative_url }})
 
----
+***
 
     ## Creating Highlight Tables
     {: #creating-highlight-tables}
@@ -321,10 +321,12 @@ Table of Contents
 
     ![The resulting highlights Profit table.]({{ '/assets/images/tableau_b2i_049.jpg' | relative_url }})
 
+***
+
     ## Creating Histograms
     {: #creating-histograms}
 
-10. Let’s try a different dataset for the next couple visualizations. We are going to load in external data this time. Go to the top **Data menu** and **select New Data Source**.
+1. Let’s try a different dataset for the next couple visualizations. We are going to load in external data this time. Go to the top **Data menu** and **select New Data Source**.
 
     ![Data dropdown menu with the menu item "New Data Source" highlighted.]({{ '/assets/images/tableau_b2i_050a.jpg' | relative_url }})
 
@@ -332,23 +334,23 @@ Table of Contents
 
     ![Tableau's connect menu with the menu-item "Text file" highlighted.]({{ '/assets/images/tableau_b2i_050b.jpg' | relative_url }})
 
-11. From this screen, you get a preview of the data. This dataset contains measurements for different parts of different species of iris flowers.
+2. From this screen, you get a preview of the data. This dataset contains measurements for different parts of different species of iris flowers.
 
     ![The Data Source Page Display page. The data table for the loaded dataset is displayed.]({{ '/assets/images/tableau_b2i_051.jpg' | relative_url }})
 
-12. The next visualization we are going to make is a histogram, which can show us the distribution of a numeric variable – for example, we could look at the frequency that different petal widths were recorded for different specimens of irises.
+3. The next visualization we are going to make is a histogram, which can show us the distribution of a numeric variable – for example, we could look at the frequency that different petal widths were recorded for different specimens of irises.
 
-13. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Histogram”.** 
+4. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Histogram”.** 
 
-14. This time, let’s take a look at creating the histogram demonstrating the show me feature. **Select the Petal.Width variable** (**Measures**), and then **expand Show Me by clicking on it**. You will see that there are two options that are not greyed out – a bar graph and a histogram. You can hover over any of the images in the Show Me tab to see what the visualization is called; it will be listed below. **Select the histogram**. Then **click on Show Me again** to close the tab.
+5. This time, let’s take a look at creating the histogram demonstrating the show me feature. **Select the Petal.Width variable** (**Measures**), and then **expand Show Me by clicking on it**. You will see that there are two options that are not greyed out – a bar graph and a histogram. You can hover over any of the images in the Show Me tab to see what the visualization is called; it will be listed below. **Select the histogram**. Then **click on Show Me again** to close the tab.
 
     ![The Petal.Width variable in the Measures section along with the Histogram image in the Show Me tab both highlighted.]({{ '/assets/images/tableau_b2i_054.jpg' | relative_url }})
 
-15. Let’ s colour by species – **drag the Species variable** (**Dimensions**) to the **Colour** box on the **Marks** card. You can see that depending on the species, there is a different range of petal widths.
+6. Let’ s colour by species – **drag the Species variable** (**Dimensions**) to the **Colour** box on the **Marks** card. You can see that depending on the species, there is a different range of petal widths.
 
     ![Image displaying the histogram, coloured by species.]({{ '/assets/images/tableau_b2i_055.jpg' | relative_url }})
 
-16. Let’s filter by species so we can see the histogram for each species individually. **Drag the Species variable** (**Dimensions**) on to the **Filters** shelf and **make sure only Virginica is selected**, and then **click OK**.
+7. Let’s filter by species so we can see the histogram for each species individually. **Drag the Species variable** (**Dimensions**) on to the **Filters** shelf and **make sure only Virginica is selected**, and then **click OK**.
 
     ![The Filter window with the item "virginica" and the "OK" button highlighted.]({{ '/assets/images/tableau_b2i_056a.jpg' | relative_url }})
 
@@ -356,9 +358,9 @@ Table of Contents
 
     ![Image displaying the resulting histogram for the Virginica species.]({{ '/assets/images/tableau_b2i_056b.jpg' | relative_url }})
 
-17. You may have also noticed that Tableau automatically creates a bin size variable under Dimensions to create the graph, where bins are just used to divide the Petal.Width variable into equal parts or ranges that each observation could fall under and their frequency could be calculated. Tableau automatically tries to select an appropriate bin size, but if you wanted, you could right click on Petal.Width (bin) under Dimensions and change the size of the bins. Let’s leave it as is for now.
+8. You may have also noticed that Tableau automatically creates a bin size variable under Dimensions to create the graph, where bins are just used to divide the Petal.Width variable into equal parts or ranges that each observation could fall under and their frequency could be calculated. Tableau automatically tries to select an appropriate bin size, but if you wanted, you could right click on Petal.Width (bin) under Dimensions and change the size of the bins. Let’s leave it as is for now.
 
---- 
+*** 
 
     ## Creating Box Plots
     {: #creating-box-plots}
@@ -393,7 +395,7 @@ Table of Contents
 
     ![The final box plot.]({{ '/assets/images/tableau_b2i_065b.jpg' | relative_url }})
 
----
+***
 
     ## Creating Scatter Plots
     {: #creating-scatter-plots}
@@ -444,7 +446,7 @@ Table of Contents
 
     <img src='{{ '/assets/images/TableauIntermediateUpdate-77.jpg' | relative_url }}' alt='' title='' width='1648' height='881' />
 
----
+***
 
     ## Creating Pie Charts
     {: #creating-pie-charts}
@@ -483,7 +485,7 @@ Table of Contents
 
 11. We can see the number of words used is quite evenly distributed throughout the acts, but Act 3 uses the most and Act 5 uses the least.
 
----
+***
 
     ## Creating Stacked Bar Graphs
     {: #creating-stacked-bar-graphs}
@@ -534,7 +536,7 @@ Table of Contents
 
     ![The final stacked bar graph.]({{ '/assets/images/tableau_b2i_095c.jpg' | relative_url }})
 
----
+***
 
     ## Creating Tree Maps
     {: #creating-tree-maps}
@@ -555,13 +557,11 @@ Table of Contents
 
 5. Next, **drag the Country/Region variable** (**Dimensions**) to the **Text** box on the **Marks** card, as we are going to separate and label each box with the country name.   
 
-
-
 6. Finally, **drag the Region variable** (**Dimensions**) on to the **Colour** box on the **Marks** card to colour code the blocks by region. Once you have it, you can see that it tells you broad strokes information, such as that Asia is the most populated place, and Oceania regions have the least people. Not only that, but it looks like the population of Asia is roughly equal to the population of the rest of the world. You can hover over the blocks to get more information, or you could even **drag the Population Total variable** again over the **Label** box on the **Marks** card to include that information under the country name.
 
     ![The Region variable in the Dimensions sections and the Colour box in the Marks card both highlighted.]({{ '/assets/images/tableau_b2i_101.jpg' | relative_url }})
 
----
+***
 
     ## Creating Choropleth Maps
     {: #creating-choropleth-maps}
@@ -586,7 +586,7 @@ Table of Contents
 
     ![The final Choropleth Map.]({{ '/assets/images/tableau_b2i_105c.jpg' | relative_url }})
 
- ---
+ ***
 
     ## Creating Proportional Symbol Maps
     {: #creating-proportional-symbol-maps}
@@ -613,7 +613,7 @@ Table of Contents
 
 5. There are many special design conventions to consider for map making. Check out the Data Visualization guide for cartography tips: [https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas](https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas)
 
----
+***
 
     ## Creating Dashboards
     {: #creating-dashboards}
@@ -692,7 +692,7 @@ Table of Contents
 
     ![The resulting dashboard with highlighting capabilities displayed.]({{ '/assets/images/tableau_b2i_120d.jpg' | relative_url }})
 
- ---
+***
 
     ## Creating Stories
     {: #creating-stories}
