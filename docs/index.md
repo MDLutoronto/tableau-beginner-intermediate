@@ -160,8 +160,8 @@ Table of Contents
 
 ***
 
-    ## Creating Line Graphs
-    {: #creating-line-graphs}
+## Creating Line Graphs
+{: #creating-line-graphs}
 
 1. Okay, let’s create a new visualization. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen**. **Rename this one to “Line”.** 
 
@@ -229,8 +229,8 @@ Table of Contents
 
 ***
 
-    ## Creating Gantt Charts
-    {: #creating-gantt-charts}
+## Creating Gantt Charts
+{: #creating-gantt-charts}
 
 1. Next, let’s look at time from a project management perspective to compare how long different tasks took using a gantt chart. We will take a look at individual orders in December 2019 and see how long it took to ship individual orders and if many orders coming in at the same time had an impact.
 
@@ -284,8 +284,8 @@ Table of Contents
 
 ***
 
-    ## Creating Highlight Tables
-    {: #creating-highlight-tables}
+## Creating Highlight Tables
+{: #creating-highlight-tables}
 
 1. Next, let’s change gears here a bit and look at creating a highlight table. It is a hybrid between a visualization and a table. Tables can be very useful when you need to look up a value and see both precise values and summary stats. To add a visualization piece, you can shade the background of various cells to highlight cells of interest – perhaps the values are too high or low. Let’s create one showing sales by sub-category, broken down by region.
 
@@ -323,8 +323,8 @@ Table of Contents
 
 ***
 
-    ## Creating Histograms
-    {: #creating-histograms}
+## Creating Histograms
+{: #creating-histograms}
 
 1. Let’s try a different dataset for the next couple visualizations. We are going to load in external data this time. Go to the top **Data menu** and **select New Data Source**.
 
@@ -362,8 +362,8 @@ Table of Contents
 
 *** 
 
-    ## Creating Box Plots
-    {: #creating-box-plots}
+## Creating Box Plots
+{: #creating-box-plots}
 
 1. Related to a histogram is a box plot, so let’s create one now. Box plots show distribution in quartiles, and have a very compact display so you can compare distributions of multiple groups much easier than you could with side by side histograms. So instead of using colours on our histogram, as we did before we filtered it, let’s create a box plot to compare the distributions of petal width by species.
 
@@ -397,8 +397,8 @@ Table of Contents
 
 ***
 
-    ## Creating Scatter Plots
-    {: #creating-scatter-plots}
+## Creating Scatter Plots
+{: #creating-scatter-plots}
 
 1. Sometimes you have to pull data from multiple sources instead of having it all in one file. Let’s add a couple more datasets, but this time we’re going to match them up or join them together to create one large dataset to work from.
 
@@ -448,8 +448,8 @@ Table of Contents
 
 ***
 
-    ## Creating Pie Charts
-    {: #creating-pie-charts}
+## Creating Pie Charts
+{: #creating-pie-charts}
 
 1. Okay let’s try a new dataset – this time some qualitative humanities data. Tableau is not meant to work directly with text data files, but you can use other better-suited textual analysis tools to create datasets that you can then visualize in Tableau. I downloaded the freely available full text of Shakespeare’s Romeo and Juliet. I separated it out into one text file per act. Then I uploaded all of the files to an online tool called Voyant Tools: [https://voyant-tools.org/](https://voyant-tools.org/). It calculated word frequencies for each act, which I now have in a spreadsheet. When Voyant calculated word frequencies, it also removed common words like “the” or “a”. These words are called stop words. If you want to learn more about textual visualization tools, such as Voyant, you can take a look at the Tools & Tutorials page in the guide: [https://mdl.library.utoronto.ca/dataviz/tools-tutorials](https://mdl.library.utoronto.ca/dataviz/tools-tutorials).
 
@@ -487,8 +487,8 @@ Table of Contents
 
 ***
 
-    ## Creating Stacked Bar Graphs
-    {: #creating-stacked-bar-graphs}
+## Creating Stacked Bar Graphs
+{: #creating-stacked-bar-graphs}
 
 1. Let’s create one more visualization with this dataset to look at the words used in more details – a stacked bar graph. Not only can we use this visualization to show totals and rank categories by those totals, similar to a bar graph, but it can also show the breakdown or composition of these totals. In our specific example, let’s create a stacked bar graph of the most frequent words in the play by act.
 
@@ -538,8 +538,8 @@ Table of Contents
 
 ***
 
-    ## Creating Tree Maps
-    {: #creating-tree-maps}
+## Creating Tree Maps
+{: #creating-tree-maps}
 
 1. Let’s try a different dataset for the next few visualizations. We are going to load a built-in dataset again. Go to the top **Data menu** and **select New Data Source**. Under Saved Data Sources, **select World Indicators**.
 
@@ -563,8 +563,8 @@ Table of Contents
 
 ***
 
-    ## Creating Choropleth Maps
-    {: #creating-choropleth-maps}
+## Creating Choropleth Maps
+{: #creating-choropleth-maps}
 
 1. Another type of visualizations we can create with Tableau is maps. Let’s create a couple now to show spatial patterns. First, we will create a choropleth map, where areas are proportionally colour-coded to represent a variable. Let’s create a choropleth map showing infant mortality by country.
 
@@ -588,8 +588,8 @@ Table of Contents
 
  ***
 
-    ## Creating Proportional Symbol Maps
-    {: #creating-proportional-symbol-maps}
+## Creating Proportional Symbol Maps
+{: #creating-proportional-symbol-maps}
 
 1. Another type of map we can create using Tableau is a proportional symbol map, where the maps scales the size of simple symbols, like circles, proportionally to the data value found at that location. Let’s create a proportional symbol map showing GDP by country.
 
@@ -615,8 +615,8 @@ Table of Contents
 
 ***
 
-    ## Creating Dashboards
-    {: #creating-dashboards}
+## Creating Dashboards
+{: #creating-dashboards}
 
 1. Now so far we have been creating visualizations within worksheets. But you can also create dashboards that combine a number of visualizations together to present a more complex story than a single visualization can show. **Click on the create new dashboard icon at the bottom, next to the new worksheet icon.** 
 
@@ -694,8 +694,8 @@ Table of Contents
 
 ***
 
-    ## Creating Stories
-    {: #creating-stories}
+## Creating Stories
+{: #creating-stories}
 
 1. So here we have created a dashboard to give the reader an overview of sales and profit by Sub-Category, with the option to filter by state. But what if your message or dashboard needs are even more complex. Then you might turn to creating a Story in Tableau, which is a combination of dashboards and worksheets that a reader would page through sequentially or in any order they choose to gain further insight. Let’s create a simple story that looks more broadly at sales and profit by region, and goes further into the details by looking at it by state and over time.
 
@@ -751,4 +751,4 @@ Table of Contents
 
 *And that’s it! If you need more help using Tableau there are links in the Data Viz Guide to Tableau’s online tutorials to help you go further:* [https://mdl.library.utoronto.ca/dataviz/tools-tutorials#generalvisualizationtools](https://mdl.library.utoronto.ca/dataviz/tools-tutorials#generalvisualizationtools)
 
-Technique: [Data Visualization](https://mdl.library.utoronto.ca/technique/data-visualization) | Tools: [Tableau](https://mdl.library.utoronto.ca/tools/tableau)
+Technique: [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) | Tools: [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
