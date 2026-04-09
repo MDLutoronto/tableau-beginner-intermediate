@@ -3,9 +3,12 @@ title: "Getting Started with Tableau Desktop (Beginner to Intermediate)"
 layout: "home"
 description: "This is a beginner-to-intermediate level tutorial for Tableau Desktop version 2020.2. To acquire a free student, researcher, or instructor license for Tableau Desktop, please follow these licensing and installation instructions. If you want to learn this material in an online, self-paced course, with video instructions, you can self-enroll in our Practice with Tableau course."
 staff:
-    - name: Nick Field
-      link: https://library.utoronto.ca/staff/nick-field
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 permalink: "/"  #! Remove this if not the homepage
 ---
 
@@ -522,13 +525,13 @@ Table of Contents
     ## Creating Tree Maps
     {: #creating-tree-maps}
 
-96. Let’s try a different dataset for the next few visualizations. We are going to load a built-in dataset again. Go to the top **Data menu** and **select New Data Source**. Under Saved Data Sources, **select World Indicators**.
+1. Let’s try a different dataset for the next few visualizations. We are going to load a built-in dataset again. Go to the top **Data menu** and **select New Data Source**. Under Saved Data Sources, **select World Indicators**.
 
-97. So far, we have looked at pie charts and stacked bar graphs to show parts-to-whole. Another option would be to use a tree map, which not only can be used for composition, but also hierarchies. Let’s create a tree map to illustrate the size of populations by world regions for 2012.
+2. So far, we have looked at pie charts and stacked bar graphs to show parts-to-whole. Another option would be to use a tree map, which not only can be used for composition, but also hierarchies. Let’s create a tree map to illustrate the size of populations by world regions for 2012.
 
-98. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Tree Map”.** 
+3. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Tree Map”.** 
 
-99. First, let’s filter the data to 2012. **Drag the Year variable** (**Dimensions**) to the **Filters shelf**. **Select Years** and **click on Next**.
+4. First, let’s filter the data to 2012. **Drag the Year variable** (**Dimensions**) to the **Filters shelf**. **Select Years** and **click on Next**.
 
     ![The Filter Field window with the "Years" list item as well as the "Next" button highlighted.]({{ '/assets/images/tableau_b2i_099a.jpg' | relative_url }})
 
@@ -536,26 +539,26 @@ Table of Contents
 
     ![The Filter window with the 2012 list item checked and highlighted. The OK button at the bottom is also highlighted.]({{ '/assets/images/tableau_b2i_099b.jpg' | relative_url }})
 
-100. Next, **drag the Country/Region variable** (**Dimensions**) to the **Text** box on the **Marks** card, as we are going to separate and label each box with the country name.   
+5. Next, **drag the Country/Region variable** (**Dimensions**) to the **Text** box on the **Marks** card, as we are going to separate and label each box with the country name.   
 
 
 
-101. Finally, **drag the Region variable** (**Dimensions**) on to the **Colour** box on the **Marks** card to colour code the blocks by region. Once you have it, you can see that it tells you broad strokes information, such as that Asia is the most populated place, and Oceania regions have the least people. Not only that, but it looks like the population of Asia is roughly equal to the population of the rest of the world. You can hover over the blocks to get more information, or you could even **drag the Population Total variable** again over the **Label** box on the **Marks** card to include that information under the country name.
+6. Finally, **drag the Region variable** (**Dimensions**) on to the **Colour** box on the **Marks** card to colour code the blocks by region. Once you have it, you can see that it tells you broad strokes information, such as that Asia is the most populated place, and Oceania regions have the least people. Not only that, but it looks like the population of Asia is roughly equal to the population of the rest of the world. You can hover over the blocks to get more information, or you could even **drag the Population Total variable** again over the **Label** box on the **Marks** card to include that information under the country name.
 
     ![The Region variable in the Dimensions sections and the Colour box in the Marks card both highlighted.]({{ '/assets/images/tableau_b2i_101.jpg' | relative_url }})
 
     ## Creating Choropleth Maps
     {: #creating-choropleth-maps}
 
-102. Another type of visualizations we can create with Tableau is maps. Let’s create a couple now to show spatial patterns. First, we will create a choropleth map, where areas are proportionally colour-coded to represent a variable. Let’s create a choropleth map showing infant mortality by country.
+7. Another type of visualizations we can create with Tableau is maps. Let’s create a couple now to show spatial patterns. First, we will create a choropleth map, where areas are proportionally colour-coded to represent a variable. Let’s create a choropleth map showing infant mortality by country.
 
-103. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Choropleth Map”.** 
+8. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Choropleth Map”.** 
 
-104. Using the show me, as we have done before, **hold down the Ctrl key** and **select the Country/Region variable** (**Dimensions**) and **the Infant Mortality Rate variable** (**Measures**, under **Health**), and then **click on Show Me**. **Select the maps option with shaded areas.** 
+9. Using the show me, as we have done before, **hold down the Ctrl key** and **select the Country/Region variable** (**Dimensions**) and **the Infant Mortality Rate variable** (**Measures**, under **Health**), and then **click on Show Me**. **Select the maps option with shaded areas.** 
 
     **![The Country/Region variable in the Dimensions section, the Infant Mortality Rate variable in the Measures section and the Choropleth Map option in the Show Me tab, all highlighted.]({{ '/assets/images/tableau_b2i_104.jpg' | relative_url }})**
 
-105. Let’s change the legend from an unclassed map to a simplified classed map, having five different shades of blue corresponding to bin or ranges of values for infant mortality rate. **Hover over the** legend until you see a small arrow. Click on it to get the drop-down menu, and then **select Edit Colours...** 
+10. Let’s change the legend from an unclassed map to a simplified classed map, having five different shades of blue corresponding to bin or ranges of values for infant mortality rate. **Hover over the** legend until you see a small arrow. Click on it to get the drop-down menu, and then **select Edit Colours...** 
 
     ![The Infant Mortality legend drop-down menu with the item "Edit Colours..." highlighted.]({{ '/assets/images/tableau_b2i_105a.jpg' | relative_url }})
 
@@ -572,15 +575,15 @@ Table of Contents
     ## Creating Proportional Symbol Maps
     {: #creating-proportional-symbol-maps}
 
-106. Another type of map we can create using Tableau is a proportional symbol map, where the maps scales the size of simple symbols, like circles, proportionally to the data value found at that location. Let’s create a proportional symbol map showing GDP by country.
+11. Another type of map we can create using Tableau is a proportional symbol map, where the maps scales the size of simple symbols, like circles, proportionally to the data value found at that location. Let’s create a proportional symbol map showing GDP by country.
 
-107. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Proportional Map”.** 
+12. Again, we need a new worksheet. **Click on the new worksheet icon at the bottom of the screen. Let’s rename this one to “Proportional Map”.** 
 
-108. Using the show me, as we have done before, **hold down the Ctrl key** and **select the Country/Region variable** (**Dimensions**) and **the GDP variable** (**Measures**, under **Development**), and then **click on Show Me**. **Select the proportional symbol option (the map with symbols).** 
+13. Using the show me, as we have done before, **hold down the Ctrl key** and **select the Country/Region variable** (**Dimensions**) and **the GDP variable** (**Measures**, under **Development**), and then **click on Show Me**. **Select the proportional symbol option (the map with symbols).** 
 
     **![The Country/Region variable in the Dimensions section, the GDP variable in the Measures section and the Proportional Map option in the Show Me tab, all highlighted.]({{ '/assets/images/tableau_b2i_108.jpg' | relative_url }})**
 
-109. Let’s change the legend to adjust the size of the symbols. **Hover over the legend until you see a small arrow. Click on it** to get the drop-down menu, and then **select Edit Sizes...** 
+14. Let’s change the legend to adjust the size of the symbols. **Hover over the legend until you see a small arrow. Click on it** to get the drop-down menu, and then **select Edit Sizes...** 
 
     ![The GDP legend dropdown menu with the "Edit sizes..." item highlighted.]({{ '/assets/images/tableau_b2i_109a.jpg' | relative_url }})
 
@@ -592,22 +595,22 @@ Table of Contents
 
     ![The final Proportional Symbol Map.]({{ '/assets/images/tableau_b2i_109c.jpg' | relative_url }})
 
-110. There are many special design conventions to consider for map making. Check out the Data Visualization guide for cartography tips: [https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas](https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas)
+15. There are many special design conventions to consider for map making. Check out the Data Visualization guide for cartography tips: [https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas](https://mdl.library.utoronto.ca/dataviz/specialty-visualization-areas)
 
     ## Creating Dashboards
     {: #creating-dashboards}
 
-111. Now so far we have been creating visualizations within worksheets. But you can also create dashboards that combine a number of visualizations together to present a more complex story than a single visualization can show. **Click on the create new dashboard icon at the bottom, next to the new worksheet icon.** 
+16. Now so far we have been creating visualizations within worksheets. But you can also create dashboards that combine a number of visualizations together to present a more complex story than a single visualization can show. **Click on the create new dashboard icon at the bottom, next to the new worksheet icon.** 
 
     **![Image showing the New Dashboard icon.]({{ '/assets/images/tableau_b2i_111.jpg' | relative_url }})**
 
-112. You then can drag and drop various sheets to layout a dashboard. You can see it really helps to label your sheets. You can also drag other objects (bottom left), such as text or images to create your dashboard. So let’s create a dashboard showing sales and profit by sub-category and being able to filter by state.
+17. You then can drag and drop various sheets to layout a dashboard. You can see it really helps to label your sheets. You can also drag other objects (bottom left), such as text or images to create your dashboard. So let’s create a dashboard showing sales and profit by sub-category and being able to filter by state.
 
     ![The Sheets and Objects sections in the Side Bar, both highlighted.]({{ '/assets/images/tableau_b2i_112.jpg' | relative_url }})
 
-113. Before we start building our dashboard, I just want to adjust the Sales Bar sheet slightly. Go to the **Sales Bar sheet by clicking on its tab** at the bottom. **Right click on the State pill** on the **Filters** shelf, and **select Edit Filter...** 
+18. Before we start building our dashboard, I just want to adjust the Sales Bar sheet slightly. Go to the **Sales Bar sheet by clicking on its tab** at the bottom. **Right click on the State pill** on the **Filters** shelf, and **select Edit Filter...** 
 
-114. **Select all and click on OK.** 
+19. **Select all and click on OK.** 
 
     ![The Filter window with the "All" and "OK" buttons highlighted.]({{ '/assets/images/tableau_b2i_114a.jpg' | relative_url }})
 
@@ -621,9 +624,9 @@ Table of Contents
 
     Now we have a State filter that the reader can use to filter the graph. We are going to take this filter and use it in our dashboard to apply to all the graphs we add into the dashboard.
 
-115. So let’s go back to our dashboard by clicking on the **Dashboard 1** tab at the bottom.
+20. So let’s go back to our dashboard by clicking on the **Dashboard 1** tab at the bottom.
 
-116. First, let’s **drag the Sales Bar sheet into the dashboard**.
+21. First, let’s **drag the Sales Bar sheet into the dashboard**.
 
     ![The item Sales Bar in the Sheets section as well as the entire dashboard, both highlighted.]({{ '/assets/images/tableau_b2i_116a.jpg' | relative_url }})
 
@@ -631,11 +634,11 @@ Table of Contents
 
     ![The item Profit Bar in the Sheets section as well as the bottom part of the dashboard, both highlighted.]({{ '/assets/images/tableau_b2i_116b.jpg' | relative_url }})
 
-117. Our dashboard seems a bit squished, to improve how it displays, **under Size** on the left, **change Fixed size to Automatic.** 
+22. Our dashboard seems a bit squished, to improve how it displays, **under Size** on the left, **change Fixed size to Automatic.** 
 
     **![The Size drop-down menu with the sub-menu item "Automatic" highlighted. ]({{ '/assets/images/tableau_b2i_117.jpg' | relative_url }})**
 
-118. To make the filter for the Sales sheet apply to both**, right click on the title of the filter, State, select Apply to Worksheets**, and then pick **Selected Worksheets...** 
+23. To make the filter for the Sales sheet apply to both**, right click on the title of the filter, State, select Apply to Worksheets**, and then pick **Selected Worksheets...** 
 
     ![The State drop-down menu with the menu item "Apply to Worksheets" highlighted. The sub-menu item "Selected Worksheets..." is also highlighted.]({{ '/assets/images/tableau_b2i_118a.jpg' | relative_url }})
 
@@ -643,7 +646,7 @@ Table of Contents
 
     ![The Apply Filter to Worksheets window with the "All on dashboard" and "OK" buttons both highlighted.]({{ '/assets/images/tableau_b2i_118b.jpg' | relative_url }})
 
-119. Let’s add a title to our dashboard. **Drag Text from under objects to the top of the dashboard**. As you drag, make sure the grey rectangle is narrow, spanning the top of the whole dashboard.
+24. Let’s add a title to our dashboard. **Drag Text from under objects to the top of the dashboard**. As you drag, make sure the grey rectangle is narrow, spanning the top of the whole dashboard.
 
     ![The Text item in the Objects sections as well as the top of the dashboard, both highlighted.]({{ '/assets/images/tableau_b2i_119a.jpg' | relative_url }})
 
@@ -655,7 +658,7 @@ Table of Contents
 
     ![The resulting dashboard with the resized Title.]({{ '/assets/images/tableau_b2i_119c.jpg' | relative_url }})
 
-120. Finally, let’s add a dashboard action, where if you click on a sub-category in one of the graphs, it will highlight it in both to help the reader link the data together visually. From the **Dashboard menu** at the top, **select Actions...** 
+25. Finally, let’s add a dashboard action, where if you click on a sub-category in one of the graphs, it will highlight it in both to help the reader link the data together visually. From the **Dashboard menu** at the top, **select Actions...** 
 
     ![The Dashboard drop-down menu with the item "Actions..." highlighted.]({{ '/assets/images/tableau_b2i_120a.jpg' | relative_url }})
 
@@ -676,9 +679,9 @@ Table of Contents
     ## Creating Stories
     {: #creating-stories}
 
-121. So here we have created a dashboard to give the reader an overview of sales and profit by Sub-Category, with the option to filter by state. But what if your message or dashboard needs are even more complex. Then you might turn to creating a Story in Tableau, which is a combination of dashboards and worksheets that a reader would page through sequentially or in any order they choose to gain further insight. Let’s create a simple story that looks more broadly at sales and profit by region, and goes further into the details by looking at it by state and over time.
+26. So here we have created a dashboard to give the reader an overview of sales and profit by Sub-Category, with the option to filter by state. But what if your message or dashboard needs are even more complex. Then you might turn to creating a Story in Tableau, which is a combination of dashboards and worksheets that a reader would page through sequentially or in any order they choose to gain further insight. Let’s create a simple story that looks more broadly at sales and profit by region, and goes further into the details by looking at it by state and over time.
 
-122. First, we need to quickly create a second dashboard to add to our story. **Click on the new dashboard icon.** As this is just to demonstrate, just **drag in the Sales Table sheet and then the Profit Table sheet beside it**. **Select each legend box and click on the X** to remove them from the dashboard, as they are not needed here.
+27. First, we need to quickly create a second dashboard to add to our story. **Click on the new dashboard icon.** As this is just to demonstrate, just **drag in the Sales Table sheet and then the Profit Table sheet beside it**. **Select each legend box and click on the X** to remove them from the dashboard, as they are not needed here.
 
     ![The selected Sale legend with the close button highlighted.]({{ '/assets/images/tableau_b2i_122a.jpg' | relative_url }})
 
@@ -686,7 +689,7 @@ Table of Contents
 
     ![Under the Size section, the item “Automatic” is highlighted.]({{ '/assets/images/tableau_b2i_122b.jpg' | relative_url }})
 
-123. Now let’s create a new story. **Click on the new story icon** – the far right icon at the bottom, next to the new dashboard icon.
+28. Now let’s create a new story. **Click on the new story icon** – the far right icon at the bottom, next to the new dashboard icon.
 
     ![Image showing the New Story icon.]({{ '/assets/images/tableau_b2i_123a.jpg' | relative_url }})
 
@@ -694,7 +697,7 @@ Table of Contents
 
     ![The Size drop-down menu with the sub-menu item "Automatic" highlighted. ]({{ '/assets/images/tableau_b2i_123b.jpg' | relative_url }})
 
-124. **Drag in Dashboard 2**.
+29. **Drag in Dashboard 2**.
 
     ![Dashboard 2 and the entire Story page highlighted.]({{ '/assets/images/tableau_b2i_124a.jpg' | relative_url }})
 
@@ -702,15 +705,15 @@ Table of Contents
 
     **![The caption with the instructed text inputted.]({{ '/assets/images/tableau_b2i_124b.jpg' | relative_url }})**
 
-125. **Click on blank under New story point** on the top left.
+30. **Click on blank under New story point** on the top left.
 
     ![The Blank icon in the Side Bar highlighted.]({{ '/assets/images/tableau_b2i_125.jpg' | relative_url }})
 
-126. **Drag in Dashboard 1. Click on the grey box at the top** to add a caption. **Put “State Sales and Profit”.** 
+31. **Drag in Dashboard 1. Click on the grey box at the top** to add a caption. **Put “State Sales and Profit”.** 
 
     **![The resulting story point.]({{ '/assets/images/tableau_b2i_126.jpg' | relative_url }})**
 
-127. Finally, you do not need to only use dashboards in stories. You can also use individual sheets, and mix and match as you want, so c**lick on blank under New story point** again, and **drag in the Line sheet**. **Click on the grey box at the top** to add a caption. **Put “Quarterly Profit Over Time”.** 
+32. Finally, you do not need to only use dashboards in stories. You can also use individual sheets, and mix and match as you want, so c**lick on blank under New story point** again, and **drag in the Line sheet**. **Click on the grey box at the top** to add a caption. **Put “Quarterly Profit Over Time”.** 
 
     ![The resulting story point.]({{ '/assets/images/tableau_b2i_127a.jpg' | relative_url }})
 
@@ -718,15 +721,15 @@ Table of Contents
 
     ![The Layout tab in the Side Bar highlighted.]({{ '/assets/images/tableau_b2i_127b.jpg' | relative_url }})
 
-128. To view the finished story (or dashboard or worksheet), **press F7** to get into presentation mode. If we try that now for our story, you can see how a reader can **use the arrow keys to move through the tabs of the story**, or select a particular tab to jump to that page. **Press Esc to exit.** 
+33. To view the finished story (or dashboard or worksheet), **press F7** to get into presentation mode. If we try that now for our story, you can see how a reader can **use the arrow keys to move through the tabs of the story**, or select a particular tab to jump to that page. **Press Esc to exit.** 
 
-129. Once you have created some visualizations, dashboards, and stories, your last steps are to save and publish them. If you are working on some visualizations, as we have here, you can save work-in-progress as a Tableau Workbook file. Go to the **File menu** and **click on Save**. **Give it a name and select where you want to save the file**. (Note: If you do this, it does not save the underlying data, so you have keep the data file(s) and workbook together). Or you can **select Export Packaged Workbook…** (also from the **File menu**). Then you could share that file with others who have Tableau (and this time it includes the data). In both cases, you can then come back to revisit your work later by reopening it in Tableau Desktop.
+34. Once you have created some visualizations, dashboards, and stories, your last steps are to save and publish them. If you are working on some visualizations, as we have here, you can save work-in-progress as a Tableau Workbook file. Go to the **File menu** and **click on Save**. **Give it a name and select where you want to save the file**. (Note: If you do this, it does not save the underlying data, so you have keep the data file(s) and workbook together). Or you can **select Export Packaged Workbook…** (also from the **File menu**). Then you could share that file with others who have Tableau (and this time it includes the data). In both cases, you can then come back to revisit your work later by reopening it in Tableau Desktop.
 
-130. If you want to export one of your worksheets to an image you can use in a report or article, you can do so from the **Worksheet menu**. There are options to either **export** it as an image or **copy** it and paste it into a document or image editing software to work with it further. You can do the same thing for your whole Dashboard or Story from the Dashboard or Story menu respectively.
+35. If you want to export one of your worksheets to an image you can use in a report or article, you can do so from the **Worksheet menu**. There are options to either **export** it as an image or **copy** it and paste it into a document or image editing software to work with it further. You can do the same thing for your whole Dashboard or Story from the Dashboard or Story menu respectively.
 
     ![The Worksheet drop-down menu with the menu items "Copy" and "Export" highlighted.]({{ '/assets/images/tableau_b2i_130.jpg' | relative_url }})
 
-131. Note: As our dashboard, stories, and visualizations can also be interactive, there may be times when you want to publish them to the web so that your users can view them. Your free option is to create a **Tableau Public** ([https://public.tableau.com/en-us/s/](https://public.tableau.com/en-us/s/)) account and publish it there using that option in the **Server menu** (but note it is public; however, you can adjust the settings, if you do not want readers to download the underlying data and/or workbook). There are also pay options (**Tableau Online:** [https://www.tableau.com/products/cloud-bi](https://www.tableau.com/products/cloud-bi) and **Tableau Server:** <https://www.tableau.com/products/server>), if you want to be able to limit permissions on who can view your visualizations or to publish to your own server; use the **Publish Workbook** option from the **Server menu** to access these options.
+36. Note: As our dashboard, stories, and visualizations can also be interactive, there may be times when you want to publish them to the web so that your users can view them. Your free option is to create a **Tableau Public** ([https://public.tableau.com/en-us/s/](https://public.tableau.com/en-us/s/)) account and publish it there using that option in the **Server menu** (but note it is public; however, you can adjust the settings, if you do not want readers to download the underlying data and/or workbook). There are also pay options (**Tableau Online:** [https://www.tableau.com/products/cloud-bi](https://www.tableau.com/products/cloud-bi) and **Tableau Server:** <https://www.tableau.com/products/server>), if you want to be able to limit permissions on who can view your visualizations or to publish to your own server; use the **Publish Workbook** option from the **Server menu** to access these options.
 
 *And that’s it! If you need more help using Tableau there are links in the Data Viz Guide to Tableau’s online tutorials to help you go further:* [https://mdl.library.utoronto.ca/dataviz/tools-tutorials#generalvisualizationtools](https://mdl.library.utoronto.ca/dataviz/tools-tutorials#generalvisualizationtools)
 
