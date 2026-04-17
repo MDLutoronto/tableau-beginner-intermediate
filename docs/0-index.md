@@ -33,3 +33,5 @@ You will need a few Excel files and a CSV file to follow along with this tutoria
 
 4. Now you should have a folder within the *Workshop* folder*, TableauDatasetFiles,* containing the data files required for this tutorial.
 
+Technique: [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) | Tools: [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
+
