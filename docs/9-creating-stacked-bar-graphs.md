@@ -2,6 +2,13 @@
 title: Creating Stacked Bar Graphs
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 9
 ---
 
@@ -52,3 +59,5 @@ nav_order: 9
     Now you should see a control on the right that your audience can use to adjust how many terms to see in their top terms list.
 
     ![The final stacked bar graph.]({{ '/assets/images/tableau_b2i_095c.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

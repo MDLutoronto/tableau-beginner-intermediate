@@ -2,6 +2,13 @@
 title: Creating Pie Charts
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 8
 ---
 
@@ -40,3 +47,5 @@ nav_order: 8
     ![The Format Pane with the Number drop-down menu. In this drop-down menu, the item "Percentage” is highlighted as well as the "Decimal places" input box.]({{ '/assets/images/tableau_b2i_087.jpg' | relative_url }})
 
 11. We can see the number of words used is quite evenly distributed throughout the acts, but Act 3 uses the most and Act 5 uses the least.
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

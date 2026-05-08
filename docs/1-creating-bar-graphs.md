@@ -2,6 +2,13 @@
 title: Creating Bar Graphs
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 1
 ---
 
@@ -112,3 +119,5 @@ nav_order: 1
     ![Image displaying the final bar graph with the changed title "Profit by Sub-Category".]({{ '/assets/images/tableau_b2i_020.jpg' | relative_url }})
 
 ***
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

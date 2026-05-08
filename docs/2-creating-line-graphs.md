@@ -2,6 +2,13 @@
 title: Creating Line Graphs
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 2
 ---
 
@@ -70,3 +77,5 @@ nav_order: 2
 10. **Give your graph the title “Quarterly Profit by Sub-Categories”**.
 
     ![Image displaying the resulting line graphs, subdivided by quarterly profit.]({{ '/assets/images/tableau_b2i_030.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

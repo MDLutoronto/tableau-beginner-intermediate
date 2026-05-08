@@ -2,6 +2,13 @@
 title: Creating Histograms
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 5
 ---
 
@@ -40,3 +47,5 @@ nav_order: 5
     ![Image displaying the resulting histogram for the Virginica species.]({{ '/assets/images/tableau_b2i_056b.jpg' | relative_url }})
 
 8. You may have also noticed that Tableau automatically creates a bin size variable under Dimensions to create the graph, where bins are just used to divide the Petal.Width variable into equal parts or ranges that each observation could fall under and their frequency could be calculated. Tableau automatically tries to select an appropriate bin size, but if you wanted, you could right click on Petal.Width (bin) under Dimensions and change the size of the bins. Let’s leave it as is for now.
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
