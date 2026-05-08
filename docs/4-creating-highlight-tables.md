@@ -2,6 +2,13 @@
 title: Creating Highlight Tables
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 4
 ---
 
@@ -40,3 +47,5 @@ nav_order: 4
 9. Then **drag Profit again**, this time to **Colour** box on the **Marks** card, and from the **Marks card drop-down**, **select Square**. From this table, you can easily see for example that Tables are causing a loss in the East. Add Column Grand Totals here as well, by going to the **Analysis menu**, and **selecting Totals**, and then **Show Column Grand Totals**.
 
     ![The resulting highlights Profit table.]({{ '/assets/images/tableau_b2i_049.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

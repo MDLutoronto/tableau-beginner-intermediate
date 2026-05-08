@@ -2,6 +2,13 @@
 title: Creating Choropleth Maps
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 11
 ---
 
@@ -26,3 +33,5 @@ nav_order: 11
     From this map, we can see that infant mortality is higher in Africa and parts of Asia compared to the rest of the world.
 
     ![The final Choropleth Map.]({{ '/assets/images/tableau_b2i_105c.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

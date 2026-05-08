@@ -2,6 +2,13 @@
 title: Creating Gantt Charts
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 3
 ---
 
@@ -56,3 +63,5 @@ nav_order: 3
 10. To gain further insight into this gantt chart, we could also use colours for categories of shipping class (standard class, same day, etc.) to see how it matched or didn’t match with how long it actually took to ship. **Drag the Ship Mode variable** (**Dimensions**, under **Order**) to the **Colour** box on the **Marks** card. You can see that the same day shipping ones stand out, especially if they were longer than expected (perhaps due to many other orders coming in at the same time).
 
     ![The final Gnatt chart displayed.]({{ '/assets/images/tableau_b2i_040.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

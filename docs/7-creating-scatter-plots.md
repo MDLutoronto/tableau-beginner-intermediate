@@ -2,6 +2,13 @@
 title: Creating Scatter Plots
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 7
 ---
 
@@ -22,7 +29,7 @@ nav_order: 7
 
     <img src='{{ '/assets/images/TableauIntermediateUpdate-69.jpg' | relative_url }}' alt='' title='' width='1909' height='953' />
 
-    The pop up window shows us that the data has been related together based on a common column, Author. Now the years of experience data will also be associated with the appropriate authors additional data found in the first table. Tableau performs relates and joins on the fly, as needed. If these terms are new to you, see [this article on joins](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins) and [this article on relationships and joins in Tableau](https://help.tableau.com/v2020.2/pro/desktop/en-us/datasource_relationships_learnmorepage.htm)for more info).Click on the “x” to **close the pop up window**. 
+    The pop up window shows us that the data has been related together based on a common column, Author. Now the years of experience data will also be associated with the appropriate authors additional data found in the first table. Tableau performs relates and joins on the fly, as needed. If these terms are new to you, see [this article on relationships and joins in Tableau](https://help.tableau.com/v2020.2/pro/desktop/en-us/datasource_relationships_learnmorepage.htm) for more info). Click on the “x” to **close the pop up window**. 
 
     ![The Edit Relationship window with the close button highlighted.]({{ '/assets/images/tableau_b2i_069b.jpg' | relative_url }})
 
@@ -53,3 +60,5 @@ nav_order: 7
 12. Finally, one interesting feature of Tableau is to create not just one visualization, but a series of them, using the Pages shelf. **Drag the Year variable** (**Dimensions,** under **AuthorDataMain**) on to the **Pages** shelf. Now you should see some controls on the right. The user can scroll through three different scatterplots, one for each year, or they can click on the play button to have it animate through the years.
 
     <img src='{{ '/assets/images/TableauIntermediateUpdate-77.jpg' | relative_url }}' alt='' title='' width='1648' height='881' />
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

@@ -12,13 +12,14 @@ maintainer:
 permalink: "/"  #! Remove this if not the homepage
 nav_order: 0
 has_children: true
+has_toc: false
 ---
 
 # Getting Started with Tableau Desktop (Beginner to Intermediate)
 
-This is a beginner-to-intermediate level tutorial for Tableau Desktop version 2020.2. To acquire a free student, researcher, or instructor license for Tableau Desktop, please follow [these licensing and installation instructions](https://mdl.library.utoronto.ca/technology/tutorials/installing-tableau-desktop). If you want to learn this material in an online, self-paced course, with video instructions, you can self-enroll in our [Practice with Tableau course](https://q.utoronto.ca/enroll/WTYPDT).
+This is a beginner-to-intermediate level tutorial for Tableau Desktop version 2020.2. To acquire a free student, researcher, or instructor license for Tableau Desktop, please follow [these licensing and installation instructions](https://mdlutoronto.github.io/tableau-install/). If you want to learn this material in an online, self-paced course, with video instructions, you can self-enroll in our [Practice with Tableau course](https://q.utoronto.ca/enroll/WTYPDT).
 
-*Note: this guide builds on, and goes further than, the existing [Introductory Tableau Desktop demo](https://mdl.library.utoronto.ca/technology/tutorials/creating-data-vizualizations-using-tableau-desktop). There are some graphs in the introductory tutorial that are not covered in this tutorial, so feel free to consult both.*
+*Note: this guide builds on, and goes further than, the existing [Introductory Tableau Desktop demo](https://mdlutoronto.github.io/tableau-creating-data-viz-beginner/). There are some graphs in the introductory tutorial that are not covered in this tutorial, so feel free to consult both.*
 
 Downloading the Required Datasets
 ---------------------------------
@@ -33,5 +34,5 @@ You will need a few Excel files and a CSV file to follow along with this tutoria
 
 4. Now you should have a folder within the *Workshop* folder*, TableauDatasetFiles,* containing the data files required for this tutorial.
 
-Technique: [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) | Tools: [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
 

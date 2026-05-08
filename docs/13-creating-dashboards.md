@@ -2,6 +2,13 @@
 title: Creating Dashboards
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 13
 ---
 
@@ -80,3 +87,5 @@ nav_order: 13
     Now if you select a Sub-Category in one graph, such as Chairs, it should highlight Chairs in the second graph. Click it again to deselect it.
 
     ![The resulting dashboard with highlighting capabilities displayed.]({{ '/assets/images/tableau_b2i_120d.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

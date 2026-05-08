@@ -2,6 +2,13 @@
 title: Creating Box Plots
 parent: Getting Started with Tableau Desktop (Beginner to Intermediate)
 layout: default
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+created_date: 2020-03-25
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 6
 ---
 
@@ -36,3 +43,5 @@ nav_order: 6
     You can see this graph shows us for example that the species Virginica has a largest range of petal widths and that there are some overlap in petal widths between Versicolor and Virginica, but none with Setosa.
 
     ![The final box plot.]({{ '/assets/images/tableau_b2i_065b.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
